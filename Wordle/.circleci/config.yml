@@ -6,7 +6,7 @@ jobs:
   build:
     description: Build application Release configuration
     executor: 
-    name: windows/deafult
+    name: windows/default
   steps: 
     - checkout
     - restore_cache:
