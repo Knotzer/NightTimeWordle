@@ -10,7 +10,6 @@
     });
 
     sound.play();
-
 }
 
 var Choice = Math.floor(Math.random()* 16);
