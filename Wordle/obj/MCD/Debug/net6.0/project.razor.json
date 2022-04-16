@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Wordle.csproj",
+  "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Wordle.csproj",
   "Configuration": {
     "ConfigurationName": "Default",
     "LanguageVersion": "6.0",
@@ -13639,44 +13639,44 @@
   "RootNamespace": "Wordle",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Shared\\SurveyPrompt.razor",
-      "TargetPath": "Shared\\SurveyPrompt.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Pages\\Index.razor",
-      "TargetPath": "Pages\\Index.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\App.razor",
-      "TargetPath": "App.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\_Imports.razor",
-      "TargetPath": "_Imports.razor",
-      "FileKind": "componentImport"
-    },
-    {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Pages\\FetchData.razor",
-      "TargetPath": "Pages\\FetchData.razor",
-      "FileKind": "component"
-    },
-    {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Pages\\Counter.razor",
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Pages\\Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Shared\\MainLayout.razor",
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Pages\\FetchData.razor",
+      "TargetPath": "Pages\\FetchData.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Shared\\NavMenu.razor",
+      "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Shared\\MainLayout.razor",
       "TargetPath": "Shared\\MainLayout.razor",
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlesStuff\\blazor-wordle-main\\Wordle\\Shared\\NavMenu.razor",
-      "TargetPath": "Shared\\NavMenu.razor",
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\App.razor",
+      "TargetPath": "App.razor",
       "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Pages\\Index.razor",
+      "TargetPath": "Pages\\Index.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Shared\\SurveyPrompt.razor",
+      "TargetPath": "Shared\\SurveyPrompt.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "c:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\_Imports.razor",
+      "TargetPath": "_Imports.razor",
+      "FileKind": "componentImport"
     }
   ],
   "SerializationFormat": "0.2"
