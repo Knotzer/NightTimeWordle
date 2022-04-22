@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fazbe\\Desktop\\blazor-wordle-main\\Wordle\\Wordle.csproj": {}
+    "C:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Wordle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fazbe\\Desktop\\blazor-wordle-main\\Wordle\\Wordle.csproj": {
+    "C:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Wordle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fazbe\\Desktop\\blazor-wordle-main\\Wordle\\Wordle.csproj",
+        "projectUniqueName": "C:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Wordle.csproj",
         "projectName": "Wordle",
-        "projectPath": "C:\\Users\\fazbe\\Desktop\\blazor-wordle-main\\Wordle\\Wordle.csproj",
+        "projectPath": "C:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\Wordle.csproj",
         "packagesPath": "C:\\Users\\fazbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fazbe\\Desktop\\blazor-wordle-main\\Wordle\\obj\\",
+        "outputPath": "C:\\Users\\fazbe\\Desktop\\wordlefolder\\NightTimeWordle\\Wordle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fazbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
