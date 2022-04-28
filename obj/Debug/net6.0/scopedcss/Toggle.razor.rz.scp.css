@@ -1,0 +1,27 @@
+input[b-91os90o4uc]{
+    position: relative;
+    height: 30px;
+    width: 60px;
+    -webkit-appearance: none;
+    background: purple;
+    outline: none;
+    border-radius: 15px;
+
+
+}
+    input[b-91os90o4uc]::before{
+        cursor: pointer;
+        content: " ";
+        position:absolute;
+        top:0;
+        left:0;
+        width:30px;
+        height:30px;
+        transform: scale(0.86);
+        border-radius:50%;
+        background: white;
+        transition: .5s;
+    }
+    input:checked[b-91os90o4uc]:before{
+        left:30px;
+    }

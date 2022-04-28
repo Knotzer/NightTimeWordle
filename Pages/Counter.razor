@@ -1,0 +1,31 @@
+﻿@page "/counter"
+@inject IJSRuntime JsRuntime
+
+@* <PageTitle>Counter</PageTitle> *@
+<div id="info">
+    <h1>What is Wordle?</h1>
+    <h2>Wordle is a 5 letter Word Guessing game</h2>
+</div>
+
+<div id="Blue">
+<h2>if the letter is this color, that means you got the letter in the correct position</h2>
+</div>
+<br>
+<div id="red">
+<h2>if the letter is this color that means its in the word, just not in the correct position</h2>
+</div>
+<div id="pink">
+    <h2>if the letter is this color that means it is not in the word</h2>
+</div>
+
+@code {
+  [Inject]
+    public IJSRuntime JSRuntime { get; set; }
+    public async Task ShowAlertWindow()
+    {
+        await JSRuntime.InvokeVoidAsync("showAlert", "JS function called from .NET");
+    }
+    
+}
+
+

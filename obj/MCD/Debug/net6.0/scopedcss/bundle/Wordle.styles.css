@@ -1,0 +1,218 @@
+/* /Pages/Counter.razor.rz.scp.css */
+/* /Pages/Index.razor.rz.scp.css */
+#PlayAudio[b-nokgyis547]{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body[b-nokgyis547] {
+    display: flex;
+    
+    min-height: 100vh;
+    background: black;
+}
+a[b-nokgyis547] {
+    position: relative;
+    padding: 10px 30px;
+    margin: 0 15px;
+    color: #21ebff;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0002);
+    overflow: hidden;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+    a:hover[b-nokgyis547] {
+       
+        background: #21ebff;
+        color: #111;
+        box-shadow: 0 0 50px #21ebff;
+        transition-delay: 0.5s;
+    }
+a:nth-child(1)[b-nokgyis547]{
+    filter: hue-rotate(115deg);
+}
+    a:nth-child(3)[b-nokgyis547] {
+        filter: hue-rotate(270deg);
+    }
+    a[b-nokgyis547]:before {
+        content: ' ';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid #21ebff;
+        border-left: 2px solid #21ebff;
+        transition: 0.5s;
+        
+    }
+    a:hover[b-nokgyis547]:before {
+        width: 100%;
+        height: 100%;
+        
+    }
+    a[b-nokgyis547]:after {
+        
+        content: ' ';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid #21ebff;
+        border-right: 2px solid #21ebff;
+        transition: 0.5s;
+    }
+    a:hover[b-nokgyis547]:after {
+        
+        width: 100%;
+        height: 100%;
+    }
+#AuidoText[b-nokgyis547]{
+    color:red;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-i9m34wfgl7] {
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-i9m34wfgl7] {
+    flex: 1;
+}
+
+.sidebar[b-i9m34wfgl7] {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0) 72%, #ff019e 92%);
+}
+
+
+
+    .top-row[b-i9m34wfgl7]  a, .top-row[b-i9m34wfgl7]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-i9m34wfgl7]  a:hover, .top-row[b-i9m34wfgl7]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-i9m34wfgl7]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-i9m34wfgl7] {
+        display: none;
+    }
+
+    .top-row.auth[b-i9m34wfgl7] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-i9m34wfgl7]  a, .top-row[b-i9m34wfgl7]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-i9m34wfgl7] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-i9m34wfgl7] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-i9m34wfgl7] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-i9m34wfgl7]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-i9m34wfgl7], article[b-i9m34wfgl7] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-4nde3e4ajz] {
+    background-color: rgb(13, 0, 251);
+}
+
+.top-row[b-4nde3e4ajz] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-4nde3e4ajz] {
+    font-size: 1.1rem;
+}
+
+.oi[b-4nde3e4ajz] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-4nde3e4ajz] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-4nde3e4ajz] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-4nde3e4ajz] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-4nde3e4ajz]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-4nde3e4ajz]  a.active {
+    background-color: rgb(0, 255, 247);
+    color: white;
+}
+
+.nav-item[b-4nde3e4ajz]  a:hover {
+    background-color: rgb(0, 255, 72);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-4nde3e4ajz] {
+        display: none;
+    }
+
+    .collapse[b-4nde3e4ajz] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
