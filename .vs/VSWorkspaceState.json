@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Pages",
+    "\\Properties",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Wordle.sln",
+  "SelectedNode": "\\wwwroot",
   "PreviewInSolutionExplorer": false
 }
