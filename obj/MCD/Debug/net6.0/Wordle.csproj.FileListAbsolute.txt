@@ -2445,3 +2445,7 @@ C:\Users\fazbe\Desktop\gamesss\obj\MCD\Debug\net6.0\Wordle.dll
 C:\Users\fazbe\Desktop\gamesss\obj\MCD\Debug\net6.0\refint\Wordle.dll
 C:\Users\fazbe\Desktop\gamesss\obj\MCD\Debug\net6.0\Wordle.pdb
 C:\Users\fazbe\Desktop\gamesss\obj\MCD\Debug\net6.0\ref\Wordle.dll
+C:\Users\fazbe\Desktop\wordlefolder\NightTimeWordle\obj\MCD\Debug\net6.0\Wordle.csproj.AssemblyReference.cache
+C:\Users\fazbe\Desktop\wordlefolder\NightTimeWordle\obj\MCD\Debug\net6.0\Wordle.dll
+C:\Users\fazbe\Desktop\wordlefolder\NightTimeWordle\obj\MCD\Debug\net6.0\refint\Wordle.dll
+C:\Users\fazbe\Desktop\wordlefolder\NightTimeWordle\obj\MCD\Debug\net6.0\Wordle.pdb
