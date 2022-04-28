@@ -16,8 +16,8 @@
 "/Music/Stargazing.mp3",
 
 ];
-const gamer="haha";
-const haha="gamer";
+const gamer="gamer";
+const haha="haha";
 
 
 const playNextSong = () => {
