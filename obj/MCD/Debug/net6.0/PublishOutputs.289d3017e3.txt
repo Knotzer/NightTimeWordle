@@ -1,0 +1,1 @@
+C:\Users\fazbe\Desktop\wordlefolder\NightTimeWordle\bin\MCD\Debug\net6.0\publish\web.config
