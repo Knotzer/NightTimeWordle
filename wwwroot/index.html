@@ -25,29 +25,6 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-
-    <script>
-        window.wireUpEventHandler = (dotNetHelper) => {
-            document.addEventListener('keyup', (event) => {
-                var name = event.key;
-                var code = event.code;
-
-                dotNetHelper.invokeMethodAsync('HandleKeyPress', code);
-            }, false);
-        };
-
-        window.toast = (category, message) => {
-            toastr.options.positionClass = "toast-top-center";
-
-            if (category === 'success') {
-                toastr.success(message);
-            }
-            else {
-                toastr.warning(message);
-            }
-        };
-    </script>
-    <!-- Start Single Page Apps for GitHub Pages -->
     <script type="text/javascript">
         // Single Page Apps for GitHub Pages
         // https://github.com/rafrex/spa-github-pages
@@ -78,6 +55,29 @@
         }(window.location))
     </script>
     <!-- End Single Page Apps for GitHub Pages -->
+    <script>
+        window.wireUpEventHandler = (dotNetHelper) => {
+            document.addEventListener('keyup', (event) => {
+                var name = event.key;
+                var code = event.code;
+
+                dotNetHelper.invokeMethodAsync('HandleKeyPress', code);
+            }, false);
+        };
+
+        window.toast = (category, message) => {
+            toastr.options.positionClass = "toast-top-center";
+
+            if (category === 'success') {
+                toastr.success(message);
+            }
+            else {
+                toastr.warning(message);
+            }
+        };
+    </script>
+    <!-- Start Single Page Apps for GitHub Pages -->
+   
 
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
